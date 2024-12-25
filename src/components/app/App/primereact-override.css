@@ -1,0 +1,15 @@
+/* stylelint-disable */
+
+/* hide floating label for inputs */
+.p-float-label input:focus ~ label,
+.p-float-label input:-webkit-autofill ~ label,
+.p-float-label input.p-filled ~ label,
+.p-float-label textarea:focus ~ label,
+.p-float-label textarea.p-filled ~ label,
+.p-float-label .p-inputwrapper-focus ~ label,
+.p-float-label .p-inputwrapper-filled ~ label,
+.p-float-label .p-tooltip-target-wrapper ~ label {
+  top: 50%;
+  font-size: 1rem;
+  opacity: 0;
+}

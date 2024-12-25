@@ -1,0 +1,9 @@
+.button {
+  width: var(--my-project-space-m) !important;
+  height: var(--my-project-space-m) !important;
+}
+
+.icon {
+  width: var(--my-project-space-xs);
+  height: var(--my-project-space-xs);
+}

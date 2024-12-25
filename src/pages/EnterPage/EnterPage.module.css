@@ -1,0 +1,23 @@
+.modal {
+  width: var(--my-project-size-l);
+  padding: 20px 40px;
+}
+
+.header .icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.header .icon::before {
+  right: 0;
+  left: auto;
+  width: 4rem;
+  height: 4rem;
+  background-position: right center;
+  background-size: auto 100%;
+  transform: translate(0%, -50%);
+}
+
+.divider::before {
+  border-top: 1px var(--my-project-palette-gray-4) solid !important;
+}

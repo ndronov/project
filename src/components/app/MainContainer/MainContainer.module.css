@@ -1,0 +1,10 @@
+.main-container {
+  width: var(--my-project-size-l);
+  background: var(--my-project-palette-transparent-gray);
+  backdrop-filter: var(--my-project-backdrop-filter);
+}
+
+.scroll-to-top-button {
+  bottom: var(--my-project-space-m);
+  left: calc(var(--my-project-space-xxxl) + var(--my-project-size-s) - 3rem);
+}

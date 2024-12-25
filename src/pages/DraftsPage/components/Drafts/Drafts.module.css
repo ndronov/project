@@ -1,0 +1,3 @@
+.scroller :global(.p-virtualscroller-content) {
+  width: 100%;
+}

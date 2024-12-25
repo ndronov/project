@@ -1,0 +1,5 @@
+.container {
+  width: var(--my-project-size-m);
+  background: var(--my-project-palette-transparent-gray);
+  backdrop-filter: var(--my-project-backdrop-filter);
+}

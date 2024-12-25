@@ -1,0 +1,7 @@
+.error :global(.p-tooltip-text) {
+  background: var(--my-project-error-color) !important;
+}
+
+.invalid {
+  border-color: var(--my-project-error-color) !important;
+}

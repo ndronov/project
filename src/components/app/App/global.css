@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: var(--my-project-font-main);
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: currentcolor;
+  text-decoration: none;
+}

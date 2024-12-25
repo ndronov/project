@@ -1,0 +1,46 @@
+.my-project-no-scrollbar {
+  overflow: hidden scroll;
+
+  /* Works on Firefox */
+  scrollbar-width: none;
+}
+
+.my-project-no-scrollbar::-webkit-scrollbar {
+  /* Works on Chrome, Edge, and Safari */
+  display: none;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.my-project-custom-scrollbar::-webkit-scrollbar {
+  width: var(--my-project-space-xxs);
+}
+
+.my-project-custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--my-project-palette-gray-4);
+  border-radius: calc(var(--my-project-space-xxs) / 2);
+}
+
+.my-project-custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--my-project-palette-black);
+  border-radius: calc(var(--my-project-space-xxs) / 2);
+}
+
+/* Works on Firefox */
+@supports (not selector(::-webkit-scrollbar)) {
+  .my-project-custom-scrollbar {
+    scrollbar-color: var(--my-project-palette-black) var(--my-project-palette-gray-4);
+    scrollbar-width: thin;
+  }
+}
+
+.my-project-accent-font {
+  font-family: var(--my-project-font-accent);
+}
+
+.my-project-loud-font {
+  font-family: var(--my-project-font-loud);
+}
+
+.my-project-tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

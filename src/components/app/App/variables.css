@@ -1,0 +1,61 @@
+:root {
+  /* transparent colors */
+
+  --my-project-palette-transparent-gray: #f0efeacc;
+  --my-project-palette-transparent-gray-2: #00000080;
+
+  /* rest palette colors */
+
+  --my-project-palette-white: #ffffff;
+  --my-project-palette-gray-1: #f0efea;
+  --my-project-palette-gray-2: #ebebeb;
+  --my-project-palette-gray-3: #e5e5e5;
+  --my-project-palette-gray-4: #c8c8c8;
+  --my-project-palette-gray-5: #868686;
+  --my-project-palette-gray-6: #292929;
+  --my-project-palette-black: #000000;
+  --my-project-palette-blue: #0045cc;
+  --my-project-palette-red: #ff0000;
+
+  /* semantic colors */
+
+  --my-project-primary-color: var(--my-project-palette-black);
+  --my-project-text-color: var(--my-project-palette-black);
+  --my-project-error-color: var(--my-project-palette-red);
+
+  /* filters */
+
+  --my-project-backdrop-filter: blur(2px);
+
+  /* font sizes */
+
+  --my-project-font-size-xs: 12px;
+  --my-project-font-size-sm: 14px;
+  --my-project-font-size-base: 16px;
+  --my-project-font-size-lg: 20px;
+  --my-project-font-size-xl: 22px;
+  --my-project-font-size-2xl: 24px;
+  --my-project-font-size-3xl: 30px;
+  --my-project-font-size-4xl: 40px;
+  --my-project-font-size-5xl: 44px;
+
+  /* spacing */
+
+  --my-project-space-xxs: 4px;
+  --my-project-space-xs: 8px;
+  --my-project-space-s: 12px;
+  --my-project-space-m: 20px;
+  --my-project-space-xxxl: 260px;
+
+  /* sizes */
+
+  --my-project-size-s: 240px;
+  --my-project-size-m: 360px;
+  --my-project-size-l: 640px;
+
+  /* fonts */
+
+  --my-project-font-main: 'Manrope', sans-serif;
+  --my-project-font-accent: 'Dela Gothic One', sans-serif;
+  --my-project-font-loud: 'Unbounded', sans-serif;
+}

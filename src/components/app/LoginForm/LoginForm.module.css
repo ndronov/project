@@ -1,0 +1,11 @@
+.form {
+  width: 320px;
+}
+
+.form :global(.p-inputtext) {
+  border-color: var(--my-project-palette-gray-4);
+}
+
+.submit {
+  width: var(--my-project-size-s) !important;
+}
