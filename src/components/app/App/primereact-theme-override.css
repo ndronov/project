@@ -1,0 +1,2074 @@
+/* stylelint-disable */
+
+:root {
+  --surface-c: var(--my-project-palette-gray-2); /* overridden */
+  --text-color: var(--my-project-text-color); /* overridden */
+  --text-color-secondary: var(--my-project-palette-gray-4); /* overridden */
+  --primary-color: var(--my-project-primary-color); /* overridden */
+  --font-family: var(--my-project-font-main); /* overridden */
+  --focus-ring: 0 0 0 0.2rem var(--my-project-primary-color); /* overridden */
+  --highlight-text-color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-component {
+  font-family: var(--my-project-font-main); /* overridden */
+  font-weight: 500; /* overridden */
+}
+
+.p-text-secondary {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-link {
+  font-family: var(--my-project-font-main); /* overridden */
+}
+.p-link:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+:root {
+  --primary-50: #fafafa; /* overridden */
+  --primary-100: #ebebeb; /* overridden */
+  --primary-200: #dbdbdb; /* overridden */
+  --primary-300: #c9c9c9; /* overridden */
+  --primary-400: #bababa; /* overridden */
+  --primary-500: #ababab; /* overridden */
+  --primary-600: #919191; /* overridden */
+  --primary-700: #787878; /* overridden */
+  --primary-800: #5e5e5e; /* overridden */
+  --primary-900: #454545; /* overridden */
+}
+
+.p-autocomplete .p-autocomplete-multiple-container:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-autocomplete .p-autocomplete-multiple-container:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-input-token input {
+  font-family: var(--my-project-font-main); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-token {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-autocomplete-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item:hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-datepicker {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datepicker .p-datepicker-header {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev,
+.p-datepicker .p-datepicker-header .p-datepicker-next {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev:enabled:hover,
+.p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev:focus,
+.p-datepicker .p-datepicker-header .p-datepicker-next:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year:enabled:hover,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month:enabled:hover {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker table td > span.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datepicker table td > span:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker table td.p-datepicker-today > span {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datepicker table td.p-datepicker-today > span.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datepicker .p-timepicker button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-datepicker .p-timepicker button:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datepicker .p-timepicker button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker .p-monthpicker .p-monthpicker-month.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datepicker .p-yearpicker .p-yearpicker-year.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-disabled):not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datepicker:not(.p-disabled) .p-yearpicker .p-yearpicker-year:not(.p-disabled):not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datepicker:not(.p-disabled) .p-yearpicker .p-yearpicker-year:not(.p-disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-cascadeselect:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-cascadeselect:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-cascadeselect .p-cascadeselect-label.p-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-cascadeselect .p-cascadeselect-trigger {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-cascadeselect-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item .p-cascadeselect-item-content:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item:not(.p-highlight):not(.p-disabled):hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-input-filled .p-cascadeselect {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-cascadeselect:not(.p-disabled):hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-checkbox .p-checkbox-box {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-checkbox .p-checkbox-box.p-highlight {
+  border-color: var(--my-project-primary-color); /* overridden */
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-checkbox .p-checkbox-box.p-highlight:not(.p-disabled):hover {
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-input-filled .p-checkbox .p-checkbox-box {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-checkbox .p-checkbox-box.p-highlight {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-input-filled .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-chips .p-chips-multiple-container:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-chips .p-chips-multiple-container:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-chips .p-chips-multiple-container .p-chips-token {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-chips .p-chips-multiple-container .p-chips-input-token input {
+  font-family: var(--my-project-font-main); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-dropdown:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-dropdown .p-dropdown-trigger {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-dropdown .p-dropdown-clear-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-dropdown-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-dropdown-panel .p-dropdown-header .p-dropdown-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-empty-message {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-input-filled .p-dropdown {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-dropdown:not(.p-disabled):hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-editor-container .p-editor-toolbar.ql-snow .ql-stroke {
+  stroke: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-fill {
+  fill: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label:hover {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label:hover .ql-stroke {
+  stroke: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label:hover .ql-fill {
+  fill: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+  stroke: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-fill {
+  fill: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item:hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-editor-container .p-editor-content .ql-editor {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button:hover,
+.p-editor-container .ql-snow.ql-toolbar button:focus {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button:hover .ql-stroke,
+.p-editor-container .ql-snow.ql-toolbar button:focus .ql-stroke {
+  stroke: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button:hover .ql-fill,
+.p-editor-container .ql-snow.ql-toolbar button:focus .ql-fill {
+  fill: var(--my-project-text-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button.ql-active,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke {
+  stroke: var(--my-project-primary-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-fill,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill {
+  fill: var(--my-project-primary-color); /* overridden */
+}
+.p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-picker-label,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-picker-label,
+.p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-picker-label {
+  color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-inputgroup-addon {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-inputtext {
+  font-family: var(--my-project-font-main); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+  border: 1px solid transparent; /* overridden */
+  border-radius: 12px; /* overridden */
+}
+.p-inputtext:enabled:hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-inputtext:enabled:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-float-label > label {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-input-icon-left > i:first-of-type,
+.p-input-icon-left > svg:first-of-type,
+.p-input-icon-left > .p-input-prefix {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-input-icon-right > i:last-of-type,
+.p-input-icon-right > svg:last-of-type,
+.p-input-icon-right > .p-input-suffix {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+::-webkit-input-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+:-moz-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+::-moz-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+:-ms-input-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-input-filled .p-inputtext {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-inputtext:enabled:hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-listbox {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-listbox .p-listbox-header .p-listbox-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-listbox .p-listbox-list .p-listbox-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-listbox .p-listbox-list .p-listbox-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-listbox .p-listbox-list .p-listbox-item:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-listbox .p-listbox-list .p-listbox-empty-message {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-listbox:not(.p-disabled) .p-listbox-item:not(.p-highlight):not(.p-disabled):hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-mention-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-mention-panel .p-mention-items .p-mention-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-mention-panel .p-mention-items .p-mention-item:hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-mention-panel .p-mention-items .p-mention-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-multiselect:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-multiselect:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-multiselect .p-multiselect-label.p-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-multiselect .p-multiselect-trigger {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-multiselect .p-multiselect-clear-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-multiselect-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item:not(.p-highlight):not(.p-disabled):hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-multiselect-panel .p-multiselect-items .p-multiselect-empty-message {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-input-filled .p-multiselect {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-multiselect:not(.p-disabled):hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-password-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-radiobutton .p-radiobutton-box {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-radiobutton .p-radiobutton-box:not(.p-disabled):not(.p-highlight):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: var(--my-project-primary-color); /* overridden */
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-input-filled .p-radiobutton .p-radiobutton-box {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-radiobutton .p-radiobutton-box:not(.p-disabled):hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-radiobutton .p-radiobutton-box.p-highlight {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-input-filled .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-rating .p-rating-item .p-rating-icon {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-rating .p-rating-item:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-rating:not(.p-disabled):not(.p-readonly) .p-rating-item:hover .p-rating-icon {
+  color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-selectbutton .p-button {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-selectbutton .p-button .p-button-icon-left,
+.p-selectbutton .p-button .p-button-icon-right {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-selectbutton .p-button.p-highlight {
+  background: var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-selectbutton .p-button.p-highlight:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-slider .p-slider-handle {
+  border: 2px solid var(--my-project-primary-color); /* overridden */
+}
+.p-slider .p-slider-handle:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-slider .p-slider-range {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-slider:not(.p-disabled) .p-slider-handle:hover {
+  background: var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-treeselect:not(.p-disabled):hover {
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-treeselect:not(.p-disabled).p-focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-treeselect .p-treeselect-label.p-placeholder {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-treeselect.p-treeselect-chip .p-treeselect-token {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treeselect .p-treeselect-trigger {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-treeselect-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container .p-treeselect-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-treeselect-panel .p-treeselect-header .p-treeselect-close {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-treeselect-panel .p-treeselect-header .p-treeselect-close:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-treeselect-panel .p-treeselect-header .p-treeselect-close:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-treeselect-panel .p-treeselect-items-wrapper .p-treeselect-empty-message {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-input-filled .p-treeselect {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-input-filled .p-treeselect:not(.p-disabled):hover {
+  background-color: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-togglebutton.p-button {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-togglebutton.p-button .p-button-icon-left,
+.p-togglebutton.p-button .p-button-icon-right {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-togglebutton.p-button.p-highlight {
+  background: var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.p-togglebutton.p-button.p-highlight:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-button {
+  justify-content: center; /* overridden */
+  width: var(--my-project-size-s); /* overridden */
+  background: var(--my-project-primary-color); /* overridden */
+  border: 1px solid var(--my-project-primary-color); /* overridden */
+  padding: 0.75rem; /* overridden */
+}
+.p-button:enabled:hover,
+.p-button:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-button:enabled:active,
+.p-button:not(button):not(a):not(.p-disabled):active {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-button.p-button-outlined {
+  background-color: var(--my-project-palette-white); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-outlined:enabled:hover,
+.p-button.p-button-outlined:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-outlined:enabled:active,
+.p-button.p-button-outlined:not(button):not(a):not(.p-disabled):active {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-outlined.p-button-plain {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  border-color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button.p-button-outlined.p-button-plain:enabled:hover,
+.p-button.p-button-outlined.p-button-plain:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button.p-button-outlined.p-button-plain:enabled:active,
+.p-button.p-button-outlined.p-button-plain:not(button):not(a):not(.p-disabled):active {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button.p-button-text {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-text:enabled:hover,
+.p-button.p-button-text:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-text:enabled:active,
+.p-button.p-button-text:not(button):not(a):not(.p-disabled):active {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-text.p-button-plain {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button.p-button-text.p-button-plain:enabled:hover,
+.p-button.p-button-text.p-button-plain:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button.p-button-text.p-button-plain:enabled:active,
+.p-button.p-button-text.p-button-plain:not(button):not(a):not(.p-disabled):active {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-button .p-button-label {
+  flex: none; /* overridden */
+}
+.p-button .p-badge {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-sm {
+  width: auto; /* overridden */
+  height: 2.25rem; /* overridden */
+  padding: 0 1rem; /* overridden */
+}
+.p-button.p-button-sm .p-button-icon-right {
+  margin-right: -0.5rem; /* overridden */
+}
+.p-button-icon-right + .p-button-label {
+  margin-left: -0.25rem; /* overridden */
+}
+.p-button.p-button-sm.p-button-icon-only {
+  width: 2.25rem; /* overridden */
+  height: 2.25rem; /* overridden */
+  padding: 0; /* overridden */
+}
+.p-button.p-button-sm .p-button-label {
+  font-weight: 500; /* overridden */
+  line-height: 100%; /* overridden */
+}
+
+.p-button.p-button-link {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-button.p-button-link:enabled:hover,
+.p-button.p-button-link:not(button):not(a):not(.p-disabled):hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-button.p-button-link:enabled:focus,
+.p-button.p-button-link:not(button):not(a):not(.p-disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-button.p-button-link:enabled:active,
+.p-button.p-button-link:not(button):not(a):not(.p-disabled):active {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-splitbutton.p-button-outlined > .p-button {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-outlined > .p-button:enabled:hover,
+.p-splitbutton.p-button-outlined > .p-button:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-outlined > .p-button:enabled:active,
+.p-splitbutton.p-button-outlined > .p-button:not(button):not(a):not(.p-disabled):active {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-outlined.p-button-plain > .p-button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  border-color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-splitbutton.p-button-outlined.p-button-plain > .p-button:enabled:hover,
+.p-splitbutton.p-button-outlined.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-splitbutton.p-button-outlined.p-button-plain > .p-button:enabled:active,
+.p-splitbutton.p-button-outlined.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):active {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-splitbutton.p-button-text > .p-button {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-text > .p-button:enabled:hover,
+.p-splitbutton.p-button-text > .p-button:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-text > .p-button:enabled:active,
+.p-splitbutton.p-button-text > .p-button:not(button):not(a):not(.p-disabled):active {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-splitbutton.p-button-text.p-button-plain > .p-button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-splitbutton.p-button-text.p-button-plain > .p-button:enabled:hover,
+.p-splitbutton.p-button-text.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-splitbutton.p-button-text.p-button-plain > .p-button:enabled:active,
+.p-splitbutton.p-button-text.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):active {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-speeddial-action {
+  background: var(--my-project-text-color); /* overridden */
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev,
+.p-carousel .p-carousel-content .p-carousel-next {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-carousel .p-carousel-content .p-carousel-prev:enabled:hover,
+.p-carousel .p-carousel-content .p-carousel-next:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-carousel .p-carousel-content .p-carousel-prev:focus,
+.p-carousel .p-carousel-content .p-carousel-next:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-badge {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-sortable-column:not(.p-highlight):not(.p-sortable-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datatable .p-sortable-column.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover .p-sortable-column-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-sortable-column:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr > td .p-row-toggler,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-init,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-save,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr > td .p-row-toggler:enabled:hover,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-init:enabled:hover,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-save:enabled:hover,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr > td .p-row-toggler:focus,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-init:focus,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-save:focus,
+.p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr > td.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable.p-datatable-selectable
+  .p-datatable-tbody
+  > tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:focus {
+  outline: 0.15rem solid var(--my-project-primary-color); /* overridden */
+  outline-offset: -0.15rem;
+}
+.p-datatable.p-datatable-selectable-cell
+  .p-datatable-tbody
+  > tr.p-selectable-row
+  > td.p-selectable-cell:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datatable.p-datatable-selectable-cell .p-datatable-tbody > tr.p-selectable-row > td.p-selectable-cell:focus {
+  outline: 0.15rem solid var(--my-project-primary-color); /* overridden */
+}
+.p-datatable.p-datatable-hoverable-rows .p-datatable-tbody > tr:not(.p-highlight):not(.p-datatable-emptymessage):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-datatable .p-column-resizer-helper {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.p-row-odd.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.p-row-odd.p-highlight .p-row-toggler {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.p-row-odd.p-highlight .p-row-toggler:hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-datatable-drag-selection-helper {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-dataview .p-dataview-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-datascroller .p-datascroller-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-column-filter-menu-button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-column-filter-menu-button:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-column-filter-menu-button.p-column-filter-menu-button-open,
+.p-column-filter-menu-button.p-column-filter-menu-button-open:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-column-filter-menu-button.p-column-filter-menu-button-active,
+.p-column-filter-menu-button.p-column-filter-menu-button-active:hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-column-filter-menu-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-column-filter-clear-button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-column-filter-clear-button:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-column-filter-clear-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-column-filter-overlay {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item:not(.p-highlight):not(.p-disabled):hover {
+  color: var(--my-project-text-color); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+
+.fc.fc-unthemed .fc-view-container td.fc-widget-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-unthemed .fc-view-container .fc-event {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border: 1px solid var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button {
+  background: var(--my-project-primary-color); /* overridden */
+  border: 1px solid var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button:enabled:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button:enabled:active {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button:enabled:active:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button:hover,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button:hover,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active {
+  background: var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active:hover,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active:hover,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button:focus,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button:focus,
+.fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness td {
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-header .fc-popover-close {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-header .fc-popover-close:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-header .fc-popover-close:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-body {
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-block-event {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event .fc-daygrid-event-dot {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button {
+  background: var(--my-project-primary-color); /* overridden */
+  border: 1px solid var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button:enabled:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button:enabled:active {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button:enabled:active:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button:disabled {
+  background: var(--my-project-primary-color); /* overridden */
+  border: 1px solid var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button:hover,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button:hover,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active {
+  background: var(--my-project-primary-color); /* overridden */
+  border-color: var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active:hover,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active:hover,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+  border-color: var(--my-project-palette-gray-6); /* overridden */
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button:not(:disabled):focus,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button:not(:disabled):focus,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button:not(:disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.fc.fc-theme-standard .fc-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-orderlist .p-orderlist-filter-container .p-orderlist-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-orderlist .p-orderlist-list {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-orderlist .p-orderlist-list .p-orderlist-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-orderlist .p-orderlist-list .p-orderlist-item:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-orderlist .p-orderlist-list .p-orderlist-item:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-orderlist .p-orderlist-list .p-orderlist-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-orderlist.p-orderlist-striped .p-orderlist-list .p-orderlist-item:nth-child(even):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-organizationchart .p-organizationchart-node-content.p-organizationchart-selectable-node:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-organizationchart .p-organizationchart-node-content.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-organizationchart .p-organizationchart-node-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-organizationchart .p-organizationchart-node-content .p-node-toggler:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-paginator {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  border: solid var(--my-project-palette-gray-2); /* overridden */
+}
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-last {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-paginator .p-paginator-current {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-paginator .p-paginator-pages .p-paginator-page {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-picklist .p-picklist-filter-container .p-picklist-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-picklist .p-picklist-list {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-picklist .p-picklist-list .p-picklist-item {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-picklist .p-picklist-list .p-picklist-item:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-picklist .p-picklist-list .p-picklist-item:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-picklist .p-picklist-list .p-picklist-item.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-tree {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-treenode-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-checkbox .p-indeterminate .p-checkbox-icon {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-tree-toggler,
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-treenode-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-tree-toggler:hover,
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight .p-treenode-icon:hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-dragover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tree .p-tree-filter-container .p-tree-filter-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-treetable .p-sortable-column {
+  outline-color: var(--my-project-primary-color); /* overridden */
+}
+.p-treetable .p-sortable-column .p-sortable-column-badge {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable .p-sortable-column:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-treetable .p-sortable-column.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable .p-sortable-column.p-highlight .p-sortable-column-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler + .p-checkbox .p-indeterminate .p-checkbox-icon {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr:focus {
+  outline: 0.15rem solid var(--my-project-primary-color); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr.p-highlight {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable .p-treetable-tbody > tr.p-highlight .p-treetable-toggler:hover {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-treetable.p-treetable-selectable .p-treetable-tbody > tr:not(.p-highlight):hover,
+.p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treetable.p-treetable-selectable .p-treetable-tbody > tr:not(.p-highlight):hover .p-treetable-toggler,
+.p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover .p-treetable-toggler {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-treetable .p-column-resizer-helper {
+  background: var(--my-project-primary-color); /* overridden */
+}
+
+.p-timeline .p-timeline-event-marker {
+  border: 2px solid var(--my-project-primary-color); /* overridden */
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-accordion .p-accordion-header:not(.p-disabled) .p-accordion-header-link:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-accordion .p-accordion-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-card {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-card .p-card-subtitle {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-fieldset {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+
+.p-panel .p-panel-header .p-panel-header-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panel .p-panel-header .p-panel-header-icon:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-panel .p-panel-header .p-panel-header-icon:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-panel .p-panel-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-panel .p-panel-footer {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-splitter {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  box-shadow: inset 0 0 0 0.2rem var(--my-project-primary-color); /* overridden */
+}
+.p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  border-color: var(--my-project-primary-color); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-tabview .p-tabview-nav-btn.p-link {
+  color: var(--my-project-primary-color); /* overridden */
+}
+.p-tabview .p-tabview-nav-btn.p-link:focus {
+  box-shadow: inset 0 0 0 0.2rem var(--my-project-primary-color); /* overridden */
+}
+.p-tabview .p-tabview-panels {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-confirm-popup {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-dialog {
+  width: var(--my-project-size-l); /* overridden */
+}
+.p-dialog .p-dialog-header {
+  padding: var(--my-project-space-m); /* overridden */
+  border-top-right-radius: 12px; /* overridden */
+  border-top-left-radius: 12px; /* overridden */
+}
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-dialog .p-dialog-content {
+  color: var(--my-project-text-color); /* overridden */
+  padding: 0 var(--my-project-space-m) var(--my-project-space-m) var(--my-project-space-m); /* overridden */
+}
+.p-dialog .p-dialog-content:last-of-type {
+  border-bottom-right-radius: 12px; /* overridden */
+  border-bottom-left-radius: 12px; /* overridden */
+}
+.p-dialog .p-dialog-footer {
+  display: flex; /* overridden */
+  justify-content: center; /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+  padding: 0 var(--my-project-space-m) var(--my-project-space-m) var(--my-project-space-m); /* overridden */
+  border-bottom-right-radius: 12px; /* overridden */
+  border-bottom-left-radius: 12px; /* overridden */
+}
+.p-dialog .p-dialog-footer button {
+  margin: 0 1.25rem 0 0; /* overridden */
+  width: var(--my-project-size-s); /* overridden */
+}
+
+.p-dialog .p-dialog-footer button:last-child {
+  margin: 0; /* overridden */
+}
+
+.p-overlaypanel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-overlaypanel .p-overlaypanel-close {
+  background: var(--my-project-primary-color); /* overridden */
+}
+.p-overlaypanel .p-overlaypanel-close:enabled:hover {
+  background: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-sidebar {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-sidebar .p-sidebar-header .p-sidebar-close,
+.p-sidebar .p-sidebar-header .p-sidebar-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-sidebar .p-sidebar-header .p-sidebar-close:focus,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-tooltip .p-tooltip-text {
+  font-size: 12px; /* overridden */
+  line-height: 100%; /* overridden */
+  background: var(--my-project-palette-gray-5); /* overridden */
+  border-radius: 4px; /* overridden */
+}
+.p-tooltip.p-tooltip-right .p-tooltip-arrow {
+  border-right-color: var(--my-project-palette-gray-5); /* overridden */
+}
+.p-tooltip.p-tooltip-left .p-tooltip-arrow {
+  display: none; /* overridden */
+}
+.p-tooltip.p-tooltip-top .p-tooltip-arrow {
+  display: none; /* overridden */
+}
+.p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
+  display: none; /* overridden */
+}
+
+.p-fileupload .p-fileupload-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-breadcrumb ul li .p-menuitem-link:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-breadcrumb ul li .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-breadcrumb ul li .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-breadcrumb ul li.p-breadcrumb-chevron {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-breadcrumb ul li:last-child .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-breadcrumb ul li:last-child .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+
+.p-contextmenu {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-contextmenu .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-contextmenu .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-contextmenu .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-contextmenu .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-contextmenu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-contextmenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-contextmenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-contextmenu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-contextmenu .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-megamenu {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  margin-left: 0.5rem;
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text,
+.p-megamenu
+  .p-megamenu-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-megamenu
+  .p-megamenu-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon,
+.p-megamenu
+  .p-megamenu-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-megamenu .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  margin-right: 0.5rem;
+}
+.p-megamenu .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-megamenu .p-megamenu-panel {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-megamenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-megamenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-megamenu .p-megamenu-button {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu .p-megamenu-button:hover {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-megamenu .p-megamenu-button:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active
+  .p-megamenu-root-list
+  > .p-menuitem
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active
+  .p-megamenu-root-list
+  > .p-menuitem
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active
+  .p-megamenu-root-list
+  > .p-menuitem
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-menu {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menu .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menu .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menu .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menu .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menu .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-menubar {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+  margin-right: 0.5rem;
+}
+.p-menubar .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+@media screen and (max-width: 960px) {
+  .p-menubar .p-menubar-button {
+    color: var(--my-project-palette-gray-4); /* overridden */
+  }
+  .p-menubar .p-menubar-button:hover {
+    color: var(--my-project-palette-gray-4); /* overridden */
+    background: var(--my-project-palette-gray-2); /* overridden */
+  }
+  .p-menubar .p-menubar-button:focus {
+    box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    color: var(--my-project-text-color); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: var(--my-project-text-color); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    color: var(--my-project-palette-gray-4); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+    color: var(--my-project-palette-gray-4); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+    background: var(--my-project-palette-gray-2); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+    color: var(--my-project-text-color); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+    color: var(--my-project-palette-gray-4); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+    color: var(--my-project-palette-gray-4); /* overridden */
+  }
+  .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
+    box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+  }
+}
+
+.p-panelmenu .p-panelmenu-header > a {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panelmenu .p-panelmenu-header > a:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-panelmenu .p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-panelmenu .p-panelmenu-header.p-highlight:not(.p-disabled) > a:hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-slidemenu {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-slidemenu .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-slidemenu .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-slidemenu .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-slidemenu .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-slidemenu .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-slidemenu .p-slidemenu.p-slidemenu-active > .p-slidemenu-link .p-slidemenu-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-slidemenu .p-slidemenu.p-slidemenu-active > .p-slidemenu-link .p-slidemenu-icon,
+.p-slidemenu .p-slidemenu.p-slidemenu-active > .p-slidemenu-link .p-slidemenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-slidemenu .p-slidemenu-backward {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-steps .p-steps-item .p-menuitem-link .p-steps-number {
+  color: var(--my-project-text-color); /* overridden */
+  border: 1px solid var(--my-project-palette-gray-2); /* overridden */
+}
+.p-steps .p-steps-item .p-menuitem-link .p-steps-title {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-steps .p-steps-item.p-highlight .p-steps-title {
+  color: var(--my-project-text-color); /* overridden */
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
+  box-shadow: inset 0 0 0 0.2rem var(--my-project-primary-color); /* overridden */
+}
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem:not(.p-highlight):not(.p-disabled):hover .p-menuitem-link {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+  border-color: var(--my-project-primary-color); /* overridden */
+  color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-tieredmenu {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+  color: var(--my-project-palette-gray-4); /* overridden */
+}
+.p-tieredmenu .p-menuitem-link:focus {
+  box-shadow: inset 0 0 0 0.15rem var(--my-project-primary-color); /* overridden */
+}
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon,
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+
+.p-message .p-message-close:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-toast .p-toast-message .p-toast-icon-close:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-galleria .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-galleria.p-galleria-indicator-onitem .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+  color: var(--my-project-palette-gray-6); /* overridden */
+}
+.p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-item-content:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-chip {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-chip .p-chip-remove-icon:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-tag {
+  background: var(--my-project-primary-color); /* overridden */
+}
+
+.p-inplace .p-inplace-display:not(.p-disabled):hover {
+  background: var(--my-project-palette-gray-2); /* overridden */
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-inplace .p-inplace-display:focus {
+  box-shadow: 0 0 0 0.1rem var(--my-project-primary-color); /* overridden */
+}
+
+.p-progressbar .p-progressbar-value {
+  background: var(--my-project-primary-color); /* overridden */
+}
+
+.p-terminal {
+  color: var(--my-project-text-color); /* overridden */
+}
+.p-terminal .p-terminal-input {
+  font-family: var(--my-project-font-main); /* overridden */
+}
+
+.p-badge {
+  background: var(--my-project-primary-color); /* overridden */
+}
+
+.p-tag {
+  background: var(--my-project-primary-color); /* overridden */
+}
+
+.p-button-label {
+  font-weight: 800; /* overridden */
+}
+
+.p-tabview .p-tabview-nav .p-tabview-ink-bar {
+  background-color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-galleria .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+  background-color: var(--my-project-primary-color); /* overridden */
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--my-project-primary-color), 0 1px 2px 0 black; /* overridden */
+}
+
+.p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-top > td {
+  box-shadow: inset 0 2px 0 0 var(--my-project-primary-color); /* overridden */
+}
+.p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-bottom > td {
+  box-shadow: inset 0 -2px 0 0 var(--my-project-primary-color); /* overridden */
+}

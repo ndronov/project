@@ -1,0 +1,33 @@
+.nav-menu-container {
+  gap: var(--my-project-space-m);
+  width: var(--my-project-size-s);
+}
+
+.nav-menu-container :global(.p-menuitem-link):focus {
+  background: var(--my-project-palette-gray-2);
+  box-shadow: none;
+}
+
+.active-item {
+  font-weight: 800;
+}
+
+.active-item :global(.p-menuitem-link) {
+  opacity: 1;
+}
+
+.messages-item {
+  position: relative;
+}
+
+.messages-item::after {
+  position: absolute;
+  top: 50% !important;
+  right: 6px;
+  width: 0.5rem;
+  height: 0.5rem;
+  content: '';
+  background-color: var(--my-project-palette-red);
+  border-radius: 50%;
+  transform: translate(0, -50%);
+}

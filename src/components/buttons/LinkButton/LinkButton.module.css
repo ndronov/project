@@ -1,0 +1,14 @@
+.link {
+  border-radius: 2rem;
+}
+
+.link:focus {
+  box-shadow:
+    0 0 0 2px var(--my-project-palette-white),
+    0 0 0 4px var(--my-project-palette-black),
+    0 1px 2px 0 var(--my-project-palette-black);
+}
+
+.link .button:focus {
+  box-shadow: none;
+}

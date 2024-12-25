@@ -1,0 +1,28 @@
+.tab-menu :global(.p-tabmenu-nav) {
+  height: 24px;
+  border: 1px var(--my-project-palette-gray-3) solid !important;
+  border-radius: 30px;
+}
+
+.tab-menu :global(.p-tabmenu-ink-bar) {
+  display: none;
+}
+
+.tab-menu-item :global(.p-menuitem-link) {
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+  font-weight: 500 !important;
+  color: var(--my-project-palette-gray-3) !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+}
+
+:global(.p-highlight).tab-menu-item :global(.p-menuitem-link) {
+  color: var(--my-project-primary-color) !important;
+}
+
+.chart {
+  height: 150px;
+}

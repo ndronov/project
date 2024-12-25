@@ -1,0 +1,12 @@
+.ripple {
+  opacity: 0.75;
+  transform: scale(0);
+  animation-name: my-project-ripple;
+}
+
+@keyframes my-project-ripple {
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+}

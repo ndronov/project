@@ -1,0 +1,197 @@
+.my-project-icon,
+.my-project-svg-icon-wrapper {
+  position: relative;
+  min-width: 1rem;
+  min-height: 1rem;
+}
+
+.my-project-svg-icon,
+.my-project-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: translate(-50%, -50%);
+}
+
+.p-button-icon-left.my-project-icon {
+  height: 1rem;
+  margin-right: 12px !important;
+}
+
+.p-button-icon-left.my-project-icon::before {
+  position: absolute;
+  top: 50% !important;
+  right: 0 !important;
+  left: auto !important;
+  width: 2.25rem;
+  height: 2.25rem;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: right center;
+  transform: translate(0%, -50%) !important;
+}
+
+.my-project-icon-feed::before {
+  background-image: url('@/components/icons/feed.svg');
+}
+
+.my-project-icon-chat::before {
+  background-image: url('@/components/icons/chat.svg');
+}
+
+.my-project-icon-user::before {
+  background-image: url('@/components/icons/user.svg');
+}
+
+.my-project-icon-qr-code::before {
+  background-image: url('@/components/icons/qr-code.svg');
+}
+
+.my-project-icon-my-project-inverted::before {
+  background-image: url('@/components/icons/my-project-inverted.svg');
+}
+
+.my-project-icon-my-project-light::before {
+  background-image: url('@/components/icons/my-project-light.svg');
+}
+
+.my-project-icon-apple::before {
+  background-image: url('@/components/icons/apple.svg');
+}
+
+.my-project-icon-google-play::before {
+  background-image: url('@/components/icons/google-play.svg');
+}
+
+.my-project-icon-link-inverted::before {
+  background-image: url('@/components/icons/link-inverted.svg');
+}
+
+.my-project-icon-heart-inverted::before {
+  background-image: url('@/components/icons/heart-inverted.svg');
+}
+
+.my-project-icon-update-inverted::before {
+  background-image: url('@/components/icons/update-inverted.svg');
+}
+
+.my-project-icon-cog::before {
+  background-image: url('@/components/icons/cog.svg');
+}
+
+.my-project-icon-cog-light::before {
+  background-image: url('@/components/icons/cog-light.svg');
+}
+
+.my-project-icon-times::before {
+  background-image: url('@/components/icons/times.svg');
+}
+
+.my-project-icon-times-light::before {
+  background-image: url('@/components/icons/times-light.svg');
+}
+
+.my-project-icon-open-eye::before {
+  background-image: url('@/components/icons/open-eye.svg');
+}
+
+.my-project-icon-closed-eye-light::before {
+  background-image: url('@/components/icons/closed-eye-light.svg');
+}
+
+.my-project-icon-paperclip::before {
+  background-image: url('@/components/icons/paperclip.svg');
+}
+
+.my-project-icon-wand::before {
+  background-image: url('@/components/icons/wand.svg');
+}
+
+.my-project-icon-ethereum-light::before {
+  background-image: url('@/components/icons/ethereum-light.svg');
+}
+
+.my-project-icon-ton-light::before {
+  background-image: url('@/components/icons/ton-light.svg');
+}
+
+.my-project-icon-card-light::before {
+  background-image: url('@/components/icons/card-light.svg');
+}
+
+.my-project-icon-up::before {
+  background-image: url('@/components/icons/up.svg');
+}
+
+.my-project-icon-kebab::before {
+  background-image: url('@/components/icons/kebab.svg');
+}
+
+.my-project-icon-comment::before {
+  background-image: url('@/components/icons/comment.svg');
+}
+
+.my-project-icon-image::before {
+  background-image: url('@/components/icons/image.svg');
+}
+
+.my-project-icon-plus::before {
+  background-image: url('@/components/icons/plus.svg');
+}
+
+.my-project-icon-minus::before {
+  background-image: url('@/components/icons/minus.svg');
+}
+
+.my-project-icon-geo::before {
+  background-image: url('@/components/icons/geo.svg');
+}
+
+.my-project-icon-fold::before {
+  background-image: url('@/components/icons/fold.svg');
+}
+
+.my-project-icon-unfold::before {
+  background-image: url('@/components/icons/unfold.svg');
+}
+
+.my-project-icon-hot-active::before {
+  background-image: url('@/components/icons/hot-active.svg');
+}
+
+.my-project-icon-hot-inactive::before {
+  background-image: url('@/components/icons/hot-inactive.svg');
+}
+
+.my-project-icon-pure-active::before {
+  background-image: url('@/components/icons/pure-active.svg');
+}
+
+.my-project-icon-pure-inactive::before {
+  background-image: url('@/components/icons/pure-inactive.svg');
+}
+
+.my-project-icon-left::before {
+  background-image: url('@/components/icons/left.svg');
+}
+
+.my-project-icon-right::before {
+  background-image: url('@/components/icons/right.svg');
+}
+
+.my-project-icon-magnifier::before {
+  background-image: url('@/components/icons/magnifier.svg');
+}
+
+.my-project-icon-wine-glass::before {
+  background-image: url('@/components/icons/wine-glass.svg');
+}
+
+.my-project-icon-text::before {
+  background-image: url('@/components/icons/text.svg');
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Unbounded;
+  font-style: normal;
+  font-weight: 900;
+  src: url('@/assets/fonts/Unbounded-Black.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('@/assets/fonts/DelaGothicOne-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 200;
+  src: url('@/assets/fonts/Manrope-ExtraLight.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  src: url('@/assets/fonts/Manrope-Light.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  src: url('@/assets/fonts/Manrope-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  src: url('@/assets/fonts/Manrope-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  src: url('@/assets/fonts/Manrope-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  src: url('@/assets/fonts/Manrope-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  src: url('@/assets/fonts/Manrope-ExtraBold.woff2') format('woff2');
+  font-display: swap;
+}

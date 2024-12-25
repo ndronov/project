@@ -1,0 +1,7 @@
+.link {
+  color: var(--my-project-palette-blue);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
